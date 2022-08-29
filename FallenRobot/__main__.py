@@ -784,7 +784,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://te.legra.ph/file/5b2a834693c44f2cca771.mp4",
                 caption=f"""
-ㅤㅤ🥀 {BOT_NAME} Is Aʟɪᴠᴇ Bᴀʙʏ....🤤
+➣ I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ...... ;) 
 
 ━━━━━━━━━━━━━
 ๏ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
