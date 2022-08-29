@@ -408,7 +408,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="Dᴇᴠᴇʟᴏᴘᴇʀ Iɴғᴏ",
+                            text=":)",
                             callback_data="https://t.me/iamjeansama/3",
                         ),
                     ],
@@ -438,7 +438,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Mᴀɴᴀɢᴇʀ",
+                            text=":(",
                             callback_data="https://t.me/I_seeeeeeee",
                         ),
                     ],
@@ -793,7 +793,7 @@ def main():
 ๏ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}`
 ━━━━━━━━━━━━━
 
-Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ [I_seeeeeeee](https://t.me/I_seeeeeeee)""",
+Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ ➣ [:)𝗝𝗘𝗔𝗡(:](https://t.me/I_seeeeeeee)""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
