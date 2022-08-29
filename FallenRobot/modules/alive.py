@@ -10,8 +10,9 @@ from FallenRobot.events import register
 from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
 
 
-VIDEO = [
-    "https://te.legra.ph/file/78397cd5a27b2a479fd96.mp4",
+PHOTO = [
+    "https://te.legra.ph/file/54c74c6db800d977d7a3f.jpg",
+    "https://te.legra.ph/file/d86ece6d830625bf70f5e.jpg", 
 ]
 
 
