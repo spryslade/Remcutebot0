@@ -83,32 +83,32 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {}, 🥀
+*Hᴇʏ Oɴɪᴄʜᴀɴ* {}, 🥀
 
-*๏ ᴛʜɪs ɪs* {} !
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+*๏ Tʜɪs Is Mᴇ* {} !
+◍ Tʜᴇ Mᴏsᴛ Pᴏᴡᴇʀғᴜʟ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Wɪᴛʜ Sᴏᴍᴇ Aᴡᴇsᴏᴍᴇ Aɴᴅ Usᴇғᴜʟ Fᴇᴀᴛᴜʀᴇs.
 
 ──────────────────
-*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
+*๏ Cʟɪᴄᴋ Oɴ Tʜᴇ Hᴇʟᴩ Bᴜᴛᴛᴏɴ Tᴏ Gᴇᴛ Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ Mʏ Mᴏᴅᴜʟᴇs Aɴᴅ Cᴏᴍᴍᴀɴᴅs.*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ",
+            text="Aᴅᴅ Mᴇ Eʟsᴇ Yᴏᴜ Gᴇʏ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="fallen_"),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="fallen_"),
+        InlineKeyboardButton(text="Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="Aɴɪᴍᴇ", url=f"https://t.me/Mystic_Anime"),
+        InlineKeyboardButton(text="Mʏsᴛɪᴄ Aɴɪᴍᴇ", url=f"https://t.me/Mystic_Anime"),
     ],
 ]
 
@@ -124,7 +124,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](https://t.me/anonymous_was_bot) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/DevilsHeavenMF) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Oᴡɴᴇʀ](https://t.me/I_seeeeeeee) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/AyaneXSupport) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
+            caption="I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ !\n<b>I Dɪᴅɴ'ᴛ Sʟᴇᴘᴛ Sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -377,39 +377,39 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     if query.data == "fallen_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
-            text=f"*ʜᴇʏ,*🥀\n  *ᴛʜɪs ɪs {BOT_NAME}*"
-            "\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.*"
-            "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
+            text=f"*Hᴇʏ,*🥀\n  *Tʜɪs Is {BOT_NAME}*"
+            "\n*A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Bᴜɪʟᴛ Tᴏ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ Eᴀꜱɪʟʏ Aɴᴅ Tᴏ Pʀᴏᴛᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘ Fʀᴏᴍ Sᴄᴀᴍᴍᴇʀꜱ Aɴᴅ Sᴘᴀᴍᴍᴇʀꜱ.*"
+            "\n*Wʀɪᴛᴛᴇɴ Iɴ Pʏᴛʜᴏɴ Wɪᴛʜ Sǫʟᴀʟᴄʜᴇᴍʏ Aɴᴅ Mᴏɴɢᴏᴅʙ As Dᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
-            f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
-            f"\n*➻ ᴜsᴇʀs »* {sql.num_users()}"
-            f"\n*➻ ᴄʜᴀᴛs »* {sql.num_chats()}"
+            f"\n*➻ Uᴩᴛɪᴍᴇ »* {uptime}"
+            f"\n*➻ Usᴇʀs »* {sql.num_users()}"
+            f"\n*➻ Cʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
-            "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
-            "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
-            "\n➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴀɴᴅ ᴇᴠᴇɴ ꜱᴇᴛ ᴀ ɢʀᴏᴜᴘ'ꜱ ʀᴜʟᴇꜱ."
-            "\n➲  ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
-            "\n➲  ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ."
-            f"\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ {BOT_NAME}.",
+            "\n\n➲  I Cᴀɴ Rᴇꜱᴛʀɪᴄᴛ Uꜱᴇʀꜱ."
+            "\n➲  I Hᴀᴠᴇ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴛɪ-Fʟᴏᴏᴅ Sʏꜱᴛᴇᴍ."
+            "\n➲  I Cᴀɴ Gʀᴇᴇᴛ Uꜱᴇʀꜱ Wɪᴛʜ Cᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ Wᴇʟᴄᴏᴍᴇ Mᴇꜱꜱᴀɢᴇꜱ Aɴᴅ Eᴠᴇɴ Sᴇᴛ A Gʀᴏᴜᴘ'ꜱ Rᴜʟᴇꜱ."
+            "\n➲  I Cᴀɴ Wᴀʀɴ Uꜱᴇʀꜱ Uɴᴛɪʟ Tʜᴇʏ Rᴇᴀᴄʜ Mᴀx Wᴀʀɴꜱ, Wɪᴛʜ Eᴀᴄʜ Pʀᴇᴅᴇꜰɪɴᴇᴅ Aᴄᴛɪᴏɴꜱ Sᴜᴄʜ Aꜱ Bᴀɴ, Mᴜᴛᴇ, Kɪᴄᴋ, Eᴛᴄ."
+            "\n➲  I Hᴀᴠᴇ A Nᴏᴛᴇ Kᴇᴇᴘɪɴɢ Sʏꜱᴛᴇᴍ, Bʟᴀᴄᴋʟɪꜱᴛꜱ, Aɴᴅ Eᴠᴇɴ Pʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ Rᴇᴘʟɪᴇꜱ Oɴ Cᴇʀᴛᴀɪɴ Kᴇʏᴡᴏʀᴅs."
+            f"\n\n➻ Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴs Gɪᴠᴇɴ Bᴇʟᴏᴡ Fᴏʀ Gᴇᴛᴛɪɴɢ Bᴀsɪᴄ Hᴇʟᴩ Aɴᴅ Iɴғᴏ Aʙᴏᴜᴛ {BOT_NAME}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", callback_data="fallen_support"
+                            text="Sᴜᴩᴩᴏʀᴛ", callback_data="fallen_support"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"
+                            text="Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ",
-                            callback_data="source_",
+                            text="Dᴇᴠᴇʟᴏᴘᴇʀ Iɴғᴏ",
+                            callback_data="https://t.me/iamjeansama/3",
                         ),
                     ],
                     [
@@ -420,26 +420,26 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "fallen_support":
         query.message.edit_text(
-            text="*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ.*"
+            text="*๏ Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴs Gɪᴠᴇɴ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Hᴇʟᴩ Aɴᴅ Mᴏʀᴇ Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ ᴍᴇ.*"
             f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {BOT_NAME} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {BOT_NAME}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="Uᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="Dᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ",
-                            callback_data="https://github.com/AnonymousR1025",
+                            text="Bᴏᴛ Mᴀɴᴀɢᴇʀ",
+                            callback_data="https://t.me/I_seeeeeeee",
                         ),
                     ],
                     [
@@ -465,19 +465,19 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=f"""
-*ʜᴇʏ,
- ᴛʜɪs ɪs {BOT_NAME},
-ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
+*Hᴇʏ,
+ Tʜɪs Is {BOT_NAME},
+Aɴ Hɪɢʜʟʏ Aᴅᴠᴀɴᴄᴇᴅ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.*
 
-ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ : [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon)
+Wʀɪᴛᴛᴇɴ Iɴ Pʏᴛʜᴏɴ Wɪᴛʜ Tʜᴇ Hᴇʟᴩ Oғ : [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon)
 [ᴩʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)
 [ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot)
-ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
+Aɴᴅ Usɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) Aɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) As Dᴀᴛᴀʙᴀsᴇ.
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/AnonymousR1025/FallenRobot)
+*Yᴏᴜ Cᴀɴ Gᴇᴛ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Oғ Bᴏᴛ Bᴜᴛ Fɪʀsᴛ Yᴏᴜ Asᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ :* [Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/Zenko_0)
 
-{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/AnonymousR1025/FallenRobot/blob/master/LICENSE).
-© 2022 - 2023 [@ᴅᴇᴠɪʟsʜᴇᴀᴠᴇɴᴍғ](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+{BOT_NAME} Oᴡɴᴇʀ Is [Zᴇɴᴋᴏ](https://t.me/Zenko_0).
+© 2022 - 2023 [@AyaneShirakawaBot](https://t.me/{SUPPORT_CHAT}), Aʟʟ Rɪɢʜᴛs Rᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -511,7 +511,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ʜᴇʟᴘ​",
+                                text="Hᴇʟᴘ​",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -522,12 +522,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "» ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴩᴛɪᴏɴ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴩ.",
+            "» Cʜᴏᴏsᴇ Aɴ Oᴩᴛɪᴏɴ Fᴏʀ Gᴇᴛᴛɪɴɢ Hᴇʟᴩ.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ɪɴ ᴩʀɪᴠᴀᴛᴇ",
+                            text="Oᴩᴇɴ Iɴ Pʀɪᴠᴀᴛᴇ",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -535,7 +535,7 @@ def get_help(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ʜᴇʀᴇ",
+                            text="Oᴩᴇɴ Hᴇʀᴇ",
                             callback_data="help_back",
                         )
                     ],
@@ -705,7 +705,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="sᴇᴛᴛɪɴɢs​",
+                                text="Sᴇᴛᴛɪɴɢs​",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -731,10 +731,10 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1356469075 and DONATION_LINK:
+        if OWNER_ID != 1904355959 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {BOT_NAME} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/anonymous_was_bot)."
-                f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
+                f"» Tʜᴇ Dᴇᴠᴇʟᴏᴩᴇʀ Oғ {BOT_NAME} Sᴏʀᴄᴇ Cᴏᴅᴇ Is [Zenko](https://t.me/Zenko_0)."
+                f"\n\nʙᴜᴛ Yᴏᴜ Cᴀɴ Aʟsᴏ Dᴏɴᴀᴛᴇ Tᴏ Tʜᴇ Pᴇʀsᴏɴ Cᴜʀʀᴇɴᴛʟʏ Rᴜɴɴɪɴɢ Mᴇ : [Zenko](https://t.me/Zenko_0)",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
             )
