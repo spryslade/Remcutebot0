@@ -780,20 +780,20 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendAnimation(
+            dispatcher.bot.sendphoto(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/b360c49a906b06e459ec0.mp4",
+                photo="https://te.legra.ph/file/bb8dd7a793ad9cf1d5a55.jpg",
                 caption=f"""
-ㅤㅤ🥀 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
+ㅤㅤ🥀 {BOT_NAME} Is Aʟɪᴠᴇ Bᴀʙʏ....🤤
 
 ━━━━━━━━━━━━━
-ㅤ๏ **ᴘʏᴛʜᴏɴ :** `{y()}`
-ㅤ๏ **ʟɪʙʀᴀʀʏ :** `{telever}`
-ㅤ๏ **ᴛᴇʟᴇᴛʜᴏɴ :** `{tlhver}`
-ㅤ๏ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
+ㅤ๏ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
+ㅤ๏ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}`
+ㅤ๏ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}`
+ㅤ๏ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}`
 ━━━━━━━━━━━━━
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/{OWNER_USERNAME})""",
+Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ [I_seeeeeeee](https://t.me/I_seeeeeeee)""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
