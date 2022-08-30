@@ -116,7 +116,7 @@ buttons = [
 FallenRobot_IMG = "https://te.legra.ph/file/c5ecb54142eb543facb8a.jpg."
 
 HELP_STRINGS = f"""
-*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs[.](https://te.legra.ph/file/d78dee021d4eb0964730e.jpg)*
+*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs [.](https://te.legra.ph/file/d78dee021d4eb0964730e.jpg)*
 
 ➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.
 ➲ /donate : sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.
