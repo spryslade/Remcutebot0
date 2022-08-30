@@ -83,6 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+────「 [Kᴀᴇᴅᴇʜᴀʀᴀ Kᴀᴢᴜʜᴀ](https://te.legra.ph/file/d78dee021d4eb0964730e.jpg) 」────
 *Hᴇʏ Oɴɪᴄʜᴀɴ* {}, 🥀
 
 *๏ Tʜɪs Is Mᴇ* {} !
@@ -111,6 +112,8 @@ buttons = [
         InlineKeyboardButton(text="Mʏsᴛɪᴄ Aɴɪᴍᴇ", url=f"https://t.me/Mystic_Anime"),
     ],
 ]
+
+FallenRobot_IMG = "https://te.legra.ph/file/c5ecb54142eb543facb8a.jpg."
 
 HELP_STRINGS = f"""
 *» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
