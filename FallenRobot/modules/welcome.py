@@ -183,7 +183,7 @@ def new_member(update: Update, context: CallbackContext):
 
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                update.effective_message.reply_video("https://te.legra.ph/file/83d94ae5ac873d19eb2bf.mp4", caption ="My Owner Has Come Here. Now I Have To Tell Them You're All Gayyy.",
+                update.effective_message.reply_video("https://te.legra.ph/file/4524a279d2bb005e2a323.mp4", caption ="Welcome To My Heart! Let Me Open The Door Oh It's 𝗠𝘆 𝗕𝗼𝘀𝘀",
                    reply_to_message_id=reply
                 )
                 welcome_log = (
@@ -195,8 +195,7 @@ def new_member(update: Update, context: CallbackContext):
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
-                update.effective_message.reply_text(
-                    "Be cool! A member of the Heroes Association just joined.",
+                update.effective_message.reply_video("https://te.legra.ph/file/c008e66256f1a02206436.mp4", caption ="The Bitter Past, More Welcome Is The Sweet But, Ohh It's My Sweet & Sour 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿", 
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
