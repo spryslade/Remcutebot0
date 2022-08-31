@@ -796,7 +796,7 @@ def main():
 ๏ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}`
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)"""
+❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)""", 
                parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
