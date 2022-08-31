@@ -18,13 +18,13 @@ PHOTO = [
 
 @register(pattern=("Kazuha alive"))
 async def awake(event):
-    TEXT = f"**Bʀᴜʜʜ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ {dispatcher.bot.first_name}**\n━━━━━━━━━━━━━━━━━━━\n\n"
+    TEXT = f"**Bʀᴜʜʜ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nI Aᴍ {dispatcher.bot.first_name}** \n\n"
     TEXT += f"❆ **I'ʟʟ Bᴇ Gɪᴠɪɴɢ Mʏ Bᴇsᴛ Iɴ Gᴀᴍᴇ Fᴏʀ Yᴏᴜ Bʀᴜʜʜ.** \n\n"
     TEXT += f"❆ **Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ​ : [Jᴇᴀɴ](https://t.me/{OWNER_USERNAME})** \n\n"
     TEXT += f"❆ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}` \n\n"
     TEXT += f"❆ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
-    TEXT += f"❆ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-    TEXT += f"❆ **Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Hᴇʀᴇ Bʀᴜʜʜ. \n\n"
+    TEXT += f"❆ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
+    TEXT += f"❆ Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Hᴇʀᴇ Bʀᴜʜʜ. \n\n"
     BUTTON = [
         [
             Button.url("Hᴇʟᴘ​", f"https://t.me/{dispatcher.bot.username}?start=help"),
