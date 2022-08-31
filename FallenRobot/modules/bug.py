@@ -47,7 +47,7 @@ async def bug(_, msg: Message):
     datetimes_fmt = "%d-%m-%Y"
     datetimes = datetime.utcnow().strftime(datetimes_fmt)
 
-    thumb = "https://telegra.ph/file/40eb1ed850cdea274693e.jpg"
+    video = "https://te.legra.ph/file/30ada749645c80e0fe094.mp4"
 
     bug_report = f"""
 **#ʙᴜɢ : ** **@{owner_usn}**
@@ -81,16 +81,16 @@ async def bug(_, msg: Message):
                     [[InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data=f"close_reply")]]
                 ),
             )
-            await Client.send_photo(
+            await Client.send_video(
                 log,
-                photo=thumb,
+                video=video,
                 caption=f"{bug_report}",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [InlineKeyboardButton("• ᴠɪᴇᴡ ʙᴜɢ •", url=f"{msg.link}")],
                         [
                             InlineKeyboardButton(
-                                "• ᴄʟᴏsᴇ •", callback_data="close_send_photo"
+                                "• ᴄʟᴏsᴇ •", callback_data="close_send_video"
                             )
                         ],
                     ]
