@@ -7,32 +7,32 @@ from pyrogram import filters
 from FallenRobot import pbot as client, dispatcher, OWNER_USERNAME
 
 
-ANON = "https://telegra.ph/file/7bd111132fce009e4605e.jpg"
+JEAN = "https://te.legra.ph/file/a523094b25a3cae372c02.mp4"
 
 
 @client.on_message(filters.command(["repo", "source"]))
 async def repo(client, message):
-    await message.reply_photo(
-        photo=ANON,
-        caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
+    await message.reply_video(
+        video=JEAN,
+        caption=f"""**Hᴇʏ​ {message.from_user.mention()},\n\nI Aᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id=1356469075)
-**» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
-**» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
-**» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
-**» ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
+**» Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ​ :** [JEAN](tg://user?id=5588236911)
+**» Pʏᴛʜᴏɴ vᴇʀsɪᴏɴ :** `{y()}`
+**» Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{o}` 
+**» Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{s}` 
+**» Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{z}`
 
-**ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**Yᴏᴜ Cᴀɴ Bᴜʏ Tʜɪs Bᴏᴛ's Pʀɪᴠᴀᴛᴇ Rᴇᴘᴏ Aᴛ Tʜᴇ Bᴜᴛᴛᴏɴs Bᴇʟʟᴏᴡ .**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• ᴏᴡɴᴇʀ •", url=f"https://t.me/{OWNER_USERNAME}"
+                        "❆ Mʏ Gᴏᴅ ❆", url=f"https://t.me/{OWNER_USERNAME}"
                     ),
                     InlineKeyboardButton(
-                        "• sᴏᴜʀᴄᴇ •",
-                        url="https://github.com/AnonymousR1025/FallenRobot",
+                        "• Bᴜʏ Rᴇᴘᴏ•",
+                        url="https://t.me/iamjeansama/3",
                     ),
                 ]
             ]
