@@ -788,7 +788,7 @@ def main():
                 animation="https://te.legra.ph/file/da29fce33663b220939c3.mp4",
                 caption=f"""
 ➣ I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ...... ;) 
-❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)""",
+❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ๏ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
 ๏ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}`
