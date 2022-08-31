@@ -785,18 +785,18 @@ def main():
         try:
             dispatcher.bot.send_animation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/5b2a834693c44f2cca771.mp4",
+                animation="https://te.legra.ph/file/da29fce33663b220939c3.mp4",
                 caption=f"""
 ➣ I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ...... ;) 
 
-━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━
 ๏ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
 ๏ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}`
 ๏ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}`
 ๏ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}`
-━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ ➣ [:)𝗝𝗘𝗔𝗡(:](https://t.me/I_seeeeeeee)""",
+❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)""",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
