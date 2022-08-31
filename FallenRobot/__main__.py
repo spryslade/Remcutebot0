@@ -787,8 +787,8 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://te.legra.ph/file/da29fce33663b220939c3.mp4",
                 caption=f"""
-➣ I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ...... ;) 
-❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)
+➣ I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ...... ;)
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ๏ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
 ๏ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}`
@@ -796,7 +796,8 @@ def main():
 ๏ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}`
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-                parse_mode=ParseMode.MARKDOWN,
+❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)"""
+               parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
             LOGGER.warning(
