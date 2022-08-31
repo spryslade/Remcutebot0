@@ -183,8 +183,8 @@ def new_member(update: Update, context: CallbackContext):
 
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                update.effective_message.reply_text(
-                    "Oh, Genos? Let's get this moving.", reply_to_message_id=reply
+                update.effective_message.reply_video("https://te.legra.ph/file/83d94ae5ac873d19eb2bf.mp4"), 
+                    "My Owner Has Come Here. Now I Have To Tell Them You're All Gayyy.", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
