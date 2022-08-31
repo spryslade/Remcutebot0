@@ -11,18 +11,20 @@ from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatche
 
 
 PHOTO = [
-    "https://te.legra.ph/file/65e0e592613042d1a778a.jpg",
-    "https://te.legra.ph/file/65e0e592613042d1a778a.jpg", 
+    "https://telegra.ph/file/354c77ca7f1f7b03d87e7.jpg",
+    "https://te.legra.ph/file/2187067613c1902b4c3ad.jpg", 
 ]
 
 
-@register(pattern=("Kazuha Start"))
+@register(pattern=("Kazuha start"))
 async def awake(event):
-    TEXT = f"**Hᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ {dispatcher.bot.first_name}**\n━━━━━━━━━━━━━━━━━━━\n\n"
-    TEXT += f"» **Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ​ : [𝗦𝗢𝗨𝗠𝗬𝗔:)](https://t.me/{OWNER_USERNAME})** \n\n"
-    TEXT += f"» **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}` \n\n"
-    TEXT += f"» **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
-    TEXT += f"» **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
+    TEXT = f"**Bʀᴜʜʜ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ {dispatcher.bot.first_name}**\n━━━━━━━━━━━━━━━━━━━\n\n"
+    TEXT += f"❆ **I'ʟʟ Bᴇ Gɪᴠɪɴɢ Mʏ Bᴇsᴛ Iɴ Gᴀᴍᴇ Fᴏʀ Yᴏᴜ Bʀᴜʜʜ.** \n\n"
+    TEXT += f"❆ **Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ​ : [Jᴇᴀɴ](https://t.me/{OWNER_USERNAME})** \n\n"
+    TEXT += f"❆ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}` \n\n"
+    TEXT += f"❆ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
+    TEXT += f"❆ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
+    TEXT += f"❆ **Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Hᴇʀᴇ Bʀᴜʜʜ. \n\n"
     BUTTON = [
         [
             Button.url("Hᴇʟᴘ​", f"https://t.me/{dispatcher.bot.username}?start=help"),
