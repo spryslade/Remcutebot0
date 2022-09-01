@@ -787,16 +787,8 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://te.legra.ph/file/da29fce33663b220939c3.mp4",
                 caption=f"""
-➣ I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ...... ;)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-๏ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
-๏ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}`
-๏ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}`
-๏ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}`
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-❆ Mʏ Oᴡɴᴇʀ ➣ [Jᴇᴀɴ](https://t.me/I_seeeeeeee)""", 
+❆ Cʟᴇᴀʀ Wᴇᴀᴛʜᴇʀ Aʟʟ Aʀᴏᴜɴᴅ Bʀɪɢʜᴛᴇɴs Tʜᴇ ʜᴇᴀʀᴛ. 
+❆ [Oᴡɴᴇʀ](https://t.me/I_seeeeeeee)""", 
                parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
