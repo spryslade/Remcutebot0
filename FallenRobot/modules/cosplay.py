@@ -8,19 +8,27 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/354c77ca7f1f7b03d87e7.jpg",
-    "https://te.legra.ph/file/2187067613c1902b4c3ad.jpg",
-    "https://telegra.ph/file/ccbf8c17e2852672ec9e3.jpg", 
-    "https://te.legra.ph/file/d72ce40646cd693bfb235.jpg", 
-    "https://telegra.ph/file/4d514f2289956b69c5e77.jpg", 
-    "https://telegra.ph/file/3d5c8066614a917ed9041.jpg", 
-    "https://te.legra.ph/file/84837f9323db81be5be4e.jpg" 
+    "https://telegra.ph/file/a0875ad582a20831d3c72.jpg",
+    "https://telegra.ph/file/4f815ffba1b3b4c5f4344.jpg",
+    "https://telegra.ph/file/2fba3f829d1721368815f.jpg", 
+    "https://telegra.ph/file/a7f76f90dabf9e86ec56f.jpg", 
+    "https://telegra.ph/file/bd40d1306e102053ddb10.jpg", 
+    "https://telegra.ph/file/486b06cc2b7be67581758.png", 
+    "https://telegra.ph/file/42e4062137629ceb293a2.jpg", 
+    "https://telegra.ph/file/34bea60a68f0363166561.jpg", 
+    "https://telegra.ph/file/50f6606d72c71ab63d4e7.jpg", 
+    "https://telegra.ph/file/a0dd57ac4530478d11293.jpg", 
+    "https://telegra.ph/file/482c032f907d5312bb6dd.jpg",
+    "https://telegra.ph/file/28ae629db5f85e1ef415c.jpg", 
+    "https://telegra.ph/file/b7d035cc58e66ebe02291.png",
+    "https://telegra.ph/file/c6f25c861ae9f7d423aa0.jpg",
+    "https://telegra.ph/file/646a1752358324aa2ae24.jpg" 
 ]
 
 
 @register(pattern=("/cosplay"))
 async def awake(event):
-    TEXT = "Cosplay"   
+    TEXT = "🥵Cosplay🥵"   
     ran = random.choice(PHOTO)
     await tbot.send_file(event.chat_id, ran, caption=TEXT)
 
