@@ -20,7 +20,7 @@ PHOTO = [
 
 @register(pattern=("/cosplay"))
 async def awake(event):
-    TEXT =f"Cosplay   
+    TEXT = "Cosplay"   
     ran = random.choice(PHOTO)
     await tbot.send_photo(event.chat, ran, caption=TEXT)
 
