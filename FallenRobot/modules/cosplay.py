@@ -22,7 +22,7 @@ PHOTO = [
 async def awake(event):
     TEXT = "Cosplay"   
     ran = random.choice(PHOTO)
-    await tbot.send_pic(event.chat, ran, caption=TEXT)
+    await tbot.send_pic(ran, caption=TEXT)
 
 
 __mod_name__ = "Cosplay"
