@@ -111,14 +111,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="Mʏsᴛɪᴄ Aɴɪᴍᴇ", url=f"https://t.me/Mystic_Anime"),
+        InlineKeyboardButton(text="Oᴡɴᴇʀ Iɴғᴏ", url=f"https://t.me/IAmJeanSama/3"),
     ],
 ]
 
 FallenRobot_IMG = "https://te.legra.ph/file/c5ecb54142eb543facb8a.jpg."
 
 HELP_STRINGS = f"""
-*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs* [!](https://te.legra.ph/file/d78dee021d4eb0964730e.jpg)
+*❆ {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs* [!](https://te.legra.ph/file/d78dee021d4eb0964730e.jpg)
 
 ➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.
 ➲ /donate : sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.
