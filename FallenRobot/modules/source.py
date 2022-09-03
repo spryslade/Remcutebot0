@@ -16,7 +16,7 @@ async def repo(client, message):
         video=JEAN,
         caption=f"""**Hᴇʏ​ {message.from_user.mention()},\n\nI Aᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ​ :** [JEAN](tg://user?id=5588236911)
+**» Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ​ :** [JEAN](tg://user?id=5508536618)
 **» Pʏᴛʜᴏɴ vᴇʀsɪᴏɴ :** `{y()}`
 **» Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{o}` 
 **» Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{s}` 
