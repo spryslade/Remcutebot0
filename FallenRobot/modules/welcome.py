@@ -183,7 +183,7 @@ def new_member(update: Update, context: CallbackContext):
 
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                update.effective_message.reply_video("https://te.legra.ph/file/4524a279d2bb005e2a323.mp4", caption ="Welcome To My Heart! Let Me Open The Door Oh It's 𝗠𝘆 𝗕𝗼𝘀𝘀",
+                update.effective_message.reply_video("https://telegra.ph/file/594a37a43d4f7e4b680fc.mp4", caption ="Welcome To My Heart! Let Me Open The Door Oh It's 𝗠𝘆 𝗕𝗼𝘀𝘀",
                    reply_to_message_id=reply
                 )
                 welcome_log = (
