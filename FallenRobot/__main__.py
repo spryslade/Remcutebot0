@@ -479,10 +479,10 @@ Wʀɪᴛᴛᴇɴ Iɴ Pʏᴛʜᴏɴ Wɪᴛʜ Tʜᴇ Hᴇʟᴩ Oғ : [ᴛᴇʟᴇ�
 [ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot)
 Aɴᴅ Usɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) Aɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) As Dᴀᴛᴀʙᴀsᴇ.
 
-*Yᴏᴜ Cᴀɴ Gᴇᴛ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Oғ Bᴏᴛ Bᴜᴛ Fɪʀsᴛ Yᴏᴜ Asᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ :* [Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/Zenko_0)
+*Yᴏᴜ Cᴀɴ Gᴇᴛ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Oғ Bᴏᴛ Bᴜᴛ Fɪʀsᴛ Yᴏᴜ Asᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ :* [Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/Jean_kunn)
 
-{BOT_NAME} Oᴡɴᴇʀ Is [Zᴇɴᴋᴏ](https://t.me/Zenko_0).
-© 2022 - 2023 [@AyaneShirakawaBot](https://t.me/{SUPPORT_CHAT}), Aʟʟ Rɪɢʜᴛs Rᴇsᴇʀᴠᴇᴅ.
+{BOT_NAME} Oᴡɴᴇʀ Is [Jᴇᴀɴ](https://t.me/Jean_kunn).
+© 2022 - 2023 [Astor Support](https://t.me/{SUPPORT_CHAT}), Aʟʟ Rɪɢʜᴛs Rᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -738,8 +738,8 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1904355959 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» Tʜᴇ Dᴇᴠᴇʟᴏᴩᴇʀ Oғ {BOT_NAME} Sᴏʀᴄᴇ Cᴏᴅᴇ Is [Zenko](https://t.me/Zenko_0)."
-                f"\n\nʙᴜᴛ Yᴏᴜ Cᴀɴ Aʟsᴏ Dᴏɴᴀᴛᴇ Tᴏ Tʜᴇ Pᴇʀsᴏɴ Cᴜʀʀᴇɴᴛʟʏ Rᴜɴɴɪɴɢ Mᴇ : [Zenko](https://t.me/Zenko_0)",
+                f"» Tʜᴇ Dᴇᴠᴇʟᴏᴩᴇʀ Oғ {BOT_NAME} Sᴏʀᴄᴇ Cᴏᴅᴇ Is [Jᴇᴀɴ](https://t.me/Jean_kunn)."
+                f"\n\nʙᴜᴛ Yᴏᴜ Cᴀɴ Aʟsᴏ Dᴏɴᴀᴛᴇ Tᴏ Tʜᴇ Pᴇʀsᴏɴ Cᴜʀʀᴇɴᴛʟʏ Rᴜɴɴɪɴɢ Mᴇ : [Jᴇᴀɴ](https://t.me/Jean_kunn)",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
             )
@@ -787,10 +787,10 @@ def main():
         try:
             dispatcher.bot.send_animation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/da29fce33663b220939c3.mp4",
+                animation="https://te.legra.ph/file/96c276fd41e56b585cc58.mp4",
                 caption=f"""
 ❆ Cʟᴇᴀʀ Wᴇᴀᴛʜᴇʀ Aʟʟ Aʀᴏᴜɴᴅ Bʀɪɢʜᴛᴇɴs Tʜᴇ ʜᴇᴀʀᴛ. 
-❆ [Oᴡɴᴇʀ](https://t.me/I_seeeeeeee)""", 
+❆ [Oᴡɴᴇʀ](https://t.me/Jean_kunn)""", 
                parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
