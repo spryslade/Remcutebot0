@@ -1,39 +1,49 @@
-import os
-import re
 import random
-from platform import python_version as kontol
-from telethon import events, Button
-from telegram import __version__ as telever
-from telethon import __version__ as tlhver
-from pyrogram import __version__ as pyrover
-from FallenRobot.events import register
-from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
-
+import asyncio
+from pyrogram import filters, __version__ as pver
+from sys import version_info
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from telethon import __version__ as tver
+from telegram import __version__ as lver
+from FallenRobot import OWNER_USERNAME, SUPPORT_CHAT, pbot
 
 PHOTO = [
-    "https://telegra.ph/file/47487d8437bd316d98feb.jpg",
-    "https://telegra.ph/file/3bfc172ba4b2eaf3892dc.jpg", 
+    "https://telegra.ph/file/b246220f29d39c1e63576.jpg",
+    "https://telegra.ph/file/77dcc39dfd9cf8d2db16f.jpg",
 ]
 
+KIRITO = [
+    [
+        InlineKeyboardButton(text="Hᴇʟᴘ", url=f"https://t.me/KazuhaXRobot?start=help"),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+    ],
+    [
+        InlineKeyboardButton(text="Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ", url=f"http://t.me/KazuhaXRobot?startgroup=true"),
+    ],
+]
 
-@register(pattern=("Kazuha alive"))
-async def awake(event):
-    TEXT = f"[{event.sender.first_name}](tg://user?id={event.sender.id}) Kᴜɴɴ, \n\n❆ I Aᴍ {dispatcher.bot.first_name}** \n\n"
-    TEXT += f"❆ **I'ʟʟ Bᴇ Gɪᴠɪɴɢ Mʏ Bᴇsᴛ.** \n\n"
-    TEXT += f"❆ **Mʏ Oᴡɴᴇʀ :** [Jᴇᴀɴ](https://t.me/{OWNER_USERNAME})** \n\n"
-    TEXT += f"❆ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}` \n\n"
-    TEXT += f"❆ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
-    TEXT += f"❆ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
-    TEXT += f"❆ **Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Hᴇʀᴇ.** \n\n"
-    BUTTON = [
-        [
-            Button.url("Hᴇʟᴘ​", f"https://t.me/{dispatcher.bot.username}?start=help"),
-            Button.url("Sᴜᴘᴘᴏʀᴛ​", f"https://t.me/{SUPPORT_CHAT}"),
-        ]
-    ]
-    ran = random.choice(PHOTO)
-    await tbot.send_file(event.chat_id, ran, caption=TEXT, buttons=BUTTON)
-
-
-__mod_name__ = "Aʟɪᴠᴇ"
-
+@pbot.on_message(filters.command("Kazuha alive"))
+async def restart(client, m: Message):
+    accha = await m.reply("⚡")
+    await asyncio.sleep(3)
+    await accha.edit("ᴀʟɪᴠɪɴɢ..")
+    await asyncio.sleep(0.1)
+    await accha.edit("Aʟɪᴠɪɴɢ....")
+    await accha.delete()
+    await asyncio.sleep(0.3)
+    umm = await m.reply_sticker("CAACAgIAAxkBAAEFwhZjFXVAiqWCLwxZTennbhUbeS8x-wACJwwAAtQqwEkOqPXXOoTv5ikE")
+    await asyncio.sleep(2)
+    await umm.delete()
+    await asyncio.sleep(0.1)
+    await m.reply_photo(
+        random.choice(PHOTO),
+        caption=f"""**Hᴇʏ​ I Aᴍ Kᴀᴇᴅᴇʜᴀʀᴀ Kᴀᴢᴜʜᴀ ʙᴏᴛ​**
+        ━━━━━━━━━━━━━━━━━━━
+        » **Mʏ Oᴡɴᴇʀ :** [Jᴇᴀɴ](https://t.me/{OWNER_USERNAME})
+        » **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{lver}`
+        » **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tver}`
+        » **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pver}`
+        » **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
+        ━━━━━━━━━━━━━━━━━━━""",
+        reply_markup=InlineKeyboardMarkup(KIRITO)
+    )
