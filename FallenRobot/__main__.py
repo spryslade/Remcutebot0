@@ -790,7 +790,7 @@ def main():
                 animation="https://te.legra.ph/file/96c276fd41e56b585cc58.mp4",
                 caption=f"""
 *❆ Cʟᴇᴀʀ Wᴇᴀᴛʜᴇʀ Aʟʟ Aʀᴏᴜɴᴅ Bʀɪɢʜᴛᴇɴs Tʜᴇ ʜᴇᴀʀᴛ.*
-*❆ [Oᴡɴᴇʀ Iɴғᴏ](https://t.me/iamjeansama/3)""",* 
+*❆ [Oᴡɴᴇʀ Iɴғᴏ](https://t.me/iamjeansama/3)*""",
                parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
