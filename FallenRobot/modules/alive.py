@@ -22,7 +22,7 @@ KIRITO = [
     ],
 ]
 
-@pbot.on_message(filters.command("Kazuha alive"))
+@pbot.on_message(filters.command("alive"))
 async def restart(client, m: Message):
     accha = await m.reply("⚡")
     await asyncio.sleep(3)
