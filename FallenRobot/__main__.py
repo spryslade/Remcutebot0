@@ -235,7 +235,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAJYsmLWRvm70cE-mmxSNCovEf4v1ueJAAIcCAACbMK4VuL4EmZEkq8WKQQ"
+                "CAACAgIAAxkBAAEFwhZjFXVAiqWCLwxZTennbhUbeS8x-wACJwwAAtQqwEkOqPXXOoTv5ikE"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="I Aᴍ Aʟɪᴠᴇ Bᴀʙʏ !\n<b>I Dɪᴅɴ'ᴛ Sʟᴇᴘᴛ Sɪɴᴄᴇ​:</b> <code>{}</code>".format(
+            caption="I Aᴍ Aʟɪᴠᴇ Dᴜᴍʙ !\n<b>I Dɪᴅɴ'ᴛ Sʟᴇᴘᴛ Sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -789,8 +789,8 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://te.legra.ph/file/96c276fd41e56b585cc58.mp4",
                 caption=f"""
-❆ Cʟᴇᴀʀ Wᴇᴀᴛʜᴇʀ Aʟʟ Aʀᴏᴜɴᴅ Bʀɪɢʜᴛᴇɴs Tʜᴇ ʜᴇᴀʀᴛ. 
-❆ [Oᴡɴᴇʀ](https://t.me/Jean_kunn)""", 
+*❆ Cʟᴇᴀʀ Wᴇᴀᴛʜᴇʀ Aʟʟ Aʀᴏᴜɴᴅ Bʀɪɢʜᴛᴇɴs Tʜᴇ ʜᴇᴀʀᴛ.*
+*❆ [Oᴡɴᴇʀ Iɴғᴏ](https://t.me/iamjeansama/3)""",* 
                parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
