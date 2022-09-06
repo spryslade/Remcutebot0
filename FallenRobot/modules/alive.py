@@ -5,7 +5,7 @@ from platform import python_version as kontol
 from telethon import events, Button
 from telegram import version as telever
 from telethon import version as tlhver
-from pyrogram import version as pyrover
+from pyrogram import __version__ as pver
 from FallenRobot.events import register
 from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
 
@@ -23,7 +23,7 @@ async def awake(event):
     TEXT += f"❆ Mʏ Oᴡɴᴇʀ : [Jᴇᴀɴ](https://t.me/{OWNER_USERNAME})** \n\n"
     TEXT += f"❆ Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ : {telever} \n\n"
     TEXT += f"❆ Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ : {tlhver} \n\n"
-    TEXT += f"❆ Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ : {pyrover} \n\n"
+    TEXT += f"❆ Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ : {pver} \n\n"
     TEXT += f"❆ Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Hᴇʀᴇ. \n\n"
     BUTTON = [
         [
