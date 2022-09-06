@@ -5,6 +5,7 @@ from platform import python_version as kontol
 from telethon import events, Button
 from telegram import version as telever
 from telethon import version as tlhver
+from pyrogram import version as pyrover
 from FallenRobot.events import register
 from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
 
