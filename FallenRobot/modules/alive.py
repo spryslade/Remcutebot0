@@ -16,7 +16,7 @@ PHOTO = [
 ]
 
 
-@register(pattern=("Kazuha alive"))
+@register(pattern=("/alive"))
 async def awake(event):
     TEXT = f"[{event.sender.first_name}](tg://user?id={event.sender.id}) Kᴜɴɴ, \n\n❆ I Aᴍ {dispatcher.bot.first_name}** \n\n"
     TEXT += f"❆ I'ʟʟ Bᴇ Gɪᴠɪɴɢ Mʏ Bᴇsᴛ. \n\n"
