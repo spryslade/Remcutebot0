@@ -3,8 +3,8 @@ import re
 import random
 from platform import python_version as kontol
 from telethon import events, Button
-from telegram import version as telever
-from telethon import version as tlhver
+from telegram import __version__ as lver
+from telethon import __version__ as tver
 from pyrogram import __version__ as pver
 from FallenRobot.events import register
 from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
@@ -21,8 +21,8 @@ async def awake(event):
     TEXT = f"[{event.sender.first_name}](tg://user?id={event.sender.id}) Kᴜɴɴ, \n\n❆ I Aᴍ {dispatcher.bot.first_name}** \n\n"
     TEXT += f"❆ I'ʟʟ Bᴇ Gɪᴠɪɴɢ Mʏ Bᴇsᴛ. \n\n"
     TEXT += f"❆ Mʏ Oᴡɴᴇʀ : [Jᴇᴀɴ](https://t.me/{OWNER_USERNAME})** \n\n"
-    TEXT += f"❆ Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ : {telever} \n\n"
-    TEXT += f"❆ Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ : {tlhver} \n\n"
+    TEXT += f"❆ Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ : {lver} \n\n"
+    TEXT += f"❆ Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ : {tver} \n\n"
     TEXT += f"❆ Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ : {pver} \n\n"
     TEXT += f"❆ Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Hᴇʀᴇ. \n\n"
     BUTTON = [
